@@ -1,10 +1,11 @@
 import React from 'react'
+import { SoftwareDev } from '../../../../Assets'
 
 export default function Hero() {
     return (
         <main className="relative py-32 lg:py-80 bg-white">
             <div
-                className="mx-auto lg:max-w-[1500px] w-full px-5 sm:px-10 md:px-12 lg:px-0 flex flex-col lg:flex-row gap-10 lg:gap-12">
+                className="mx-auto lg:max-w-[1500px] w-full px-5 sm:px-10 md:px-12 lg:px-0 flex flex-col lg:flex-row gap-10 lg:gap-12 items-center justify-center">
                 <div className="relative flex flex-col items-center text-center lg:text-left lg:py-7 xl:py-8 lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
 
                     <h1 className="text-3xl leading-tight sm:text-4xl md:text-5xl xl:text-6xl font-bold text-black">
@@ -13,7 +14,7 @@ export default function Hero() {
                     <p className="mt-8 text-black">
                         Experience the power of LogicGraph's leading-edge AI technology to transform your business with tailored solutions that increase efficiency and profitability.
                     </p>
-                    <div className="mt-10  w-full flex max-w-md mx-auto lg:mx-0">
+                    {/* <div className="mt-10  w-full flex max-w-md mx-auto lg:mx-0">
                         <div className="flex sm:flex-row flex-col gap-5 w-full">
                             <form action="#"
                                 className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-gray-600 shadow-lg shadow-gray-200/20 border border-gray-200 bg-gray-100 rounded-full ease-linear focus-within:bg-white  focus-within:border-mainColor">
@@ -38,10 +39,10 @@ export default function Hero() {
                                 </button>
                             </form>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl">
-                    <img src="https://agencex-astro.vercel.app/images/image1.webp" alt="Hero image" width="2350" height="2359" className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96" />
+                <div className="flex flex-1 lg:w-1/2 lg:h-[500px] relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl">
+                    <img src={SoftwareDev} alt="Hero image" width="2350" height="2359" className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96" />
                 </div>
             </div>
         </main>

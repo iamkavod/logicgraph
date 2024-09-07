@@ -44,11 +44,11 @@ export default function Header() {
                   Home
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="duration-300 font-bold text-gray-300 ease-linear py-3">
                   Services
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="/about" className="duration-300 font-bold text-black ease-linear hover:text-mainColor py-3">
                   About us

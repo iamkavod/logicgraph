@@ -6,16 +6,10 @@ export default function Body() {
     return (
         <main>
             <section class="h-screen flex">
-                <div class="hidden lg:flex w-full lg:w-1/2 login_img_section
-          justify-around items-center">
+                <div class="hidden lg:flex w-full lg:w-1/2 login_img_section justify-around items-center">
                     <div
-                        class=" 
-                  bg-black 
-                  opacity-20 
-                  inset-0 
-                  z-0"
+                        class="bg-black opacity-20 inset-0 z-0"
                     >
-
                     </div>
                     <div class="w-full mx-auto px-20 flex-col items-center space-y-6 text-white">
                         {/* Phone */}
@@ -25,7 +19,7 @@ export default function Body() {
                             </div>
                             <div className='flex flex-col gap-1'>
                                 <p>Phone Number</p>
-                                <a href='+234-805-531-6857' className='font-bold'>+234-805-531-6857</a>
+                                <a href='+234-805-531-6857' className='font-bold'>+(234)805-531-6857</a>
                             </div>
                         </div>
 
@@ -36,7 +30,7 @@ export default function Body() {
                             </div>
                             <div className='flex flex-col gap-1'>
                                 <p>Address</p>
-                                <a href='https://maps.app.goo.gl/ciYuSzXN9MBetDtb7'>Canaan Plaza,Lekki-Epe Expressway,106104, Lagos.</a>
+                                <a href='https://maps.app.goo.gl/ciYuSzXN9MBetDtb7'>The Waterside, 5 Admiralty Road Off, Admiralty Way, Lekki Phase 1, Lagos, Nigeria</a>
                             </div>
                         </div>
 
@@ -47,7 +41,7 @@ export default function Body() {
                             </div>
                             <div className='flex flex-col gap-1'>
                                 <p>Contact Info</p>
-                                <a href='mailto:info@unifieddatanigeria.com'>info@unifieddatanigeria.com</a>
+                                <a href='mailto:contactus@logicgraph.io'>contactus@logicgraph.io</a>
                             </div>
                         </div>
                     </div>
@@ -93,16 +87,17 @@ export default function Body() {
             </section>
 
             {/* Map */}
-            <section style={{ width: '100%', height: '400px' }}>
+            <section className="relative h-[100vh] w-full lg:mt-20">
                 <iframe
-                    src="https://maps.google.com/maps?q=6.45179,2.619975&z=15&output=embed"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.568961358926!2d3.4695703!3d6.4493440999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5906feb1da5%3A0x865cd308ad80ee19!2sRegus%20-%20Lagos%2C%20Lekki%20Admiralty!5e0!3m2!1sen!2suk!4v1696207079923!5m2!1sen!2suk"
+                    width="600"
+                    height="450"
+                    className="absolute inset-0 w-full h-full"
+                    style={{ border: "0" }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Google Maps Location"
+                    title="Location Map"
                 ></iframe>
             </section>
         </main>

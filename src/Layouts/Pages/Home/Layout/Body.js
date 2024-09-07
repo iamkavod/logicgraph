@@ -12,22 +12,29 @@ export default function Body() {
             {/* Body */}
             <section className="relative  bg-blueGray-50">
                 <div className="relative pt-16 pb-60 flex content-center items-center justify-center min-h-screen-75">
-                    <div className="absolute top-0 w-full h-full bg-center bg-cover" style={{
-                        backgroundImage: "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-                    }}>
+                    <div className="absolute top-0 w-full h-[600px] bg-center bg-cover">
+                        {/* Using iframe to load the Lottie animation */}
+                        <iframe
+                            src="https://lottie.host/embed/3e981e67-0891-4c0c-93d9-b62df274d684/p6y0kXvSOK.json"
+                            style={{ width: '100%', height: '600px', border: 'none', position: 'absolute' }}
+                            frameBorder="0"
+                        ></iframe>
+
+                        {/* Overlay */}
                         <span id="blackOverlay" className="w-full h-full absolute opacity-90 bg-darkColor"></span>
                     </div>
+
                     <div className="container relative mx-auto">
                         <div className="items-center flex flex-wrap">
-                            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                                <div className="pr-12">
-                                    <h1 className="text-white font-semibold text-5xl">
-                                        Your story starts with us.
+                            <div className="w-full lg:w-full lg:px-20 ml-auto mr-auto text-center">
+                                <div className="lg:pr-12">
+                                    <h1 className="text-white font-bold lg:text-5xl text-3xl">
+                                        Your story starts with us
                                     </h1>
-                                    <p className="mt-4 text-lg text-white">
-                                        Unified Data Nigeria Ltd is a growing digital powerhouse in Nigeria, delivering digital transformations products and services that have impacted lives across the nation.
+                                    <p className="mt-4 lg:text-lg text-md text-white">
+                                        LogicGraph is a growing digital powerhouse in Nigeria, delivering digital transformations products and services that have impacted lives across the nation.
                                     </p>
-                                    <p className="mt-4 text-3xl font-bold text-white">
+                                    <p className="mt-4 lg:text-3xl text-xl font-bold text-white">
                                         We Have 14+ Years Of Experience. We Offer Software Solutions , Digital Technology Service
                                     </p>
                                 </div>
@@ -38,14 +45,14 @@ export default function Body() {
                         transform: "translateZ(0px)",
                     }}>
                         <svg className="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                            <polygon className="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+                            <polygon className="text-black fill-current" points="2560 0 2560 100 0 100"></polygon>
                         </svg>
                     </div>
                 </div>
-                <section className="pb-10 bg-blueGray-200 -mt-24">
+                <section className="pb-10 bg-blueGray-200 lg:-mt-24 -mt-44">
                     <div className="container mx-auto px-4">
-                        <div className="flex lg:flex-nowrap flex-wrap">
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div className="grid lg:grid-cols-4 grid-cols-1">
+                            <div className="lg:pt-12 pt-6 w-full px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                     <div className="px-4 py-5 flex-auto">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-darkColor">
@@ -58,7 +65,7 @@ export default function Body() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div className="lg:pt-12 pt-6 w-full px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                     <div className="px-4 py-5 flex-auto">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-darkColor">
@@ -71,7 +78,7 @@ export default function Body() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div className="lg:pt-12 pt-6 w-full px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                     <div className="px-4 py-5 flex-auto">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-darkColor">
@@ -84,7 +91,7 @@ export default function Body() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div className="lg:pt-12 pt-6 w-full px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                     <div className="px-4 py-5 flex-auto">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-darkColor">

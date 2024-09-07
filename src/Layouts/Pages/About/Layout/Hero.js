@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <main>
             <div class="relative isolate overflow-hidden bg-darkColor py-28 sm:py-80 mt-24">
-                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" />
+                <iframe src="https://lottie.host/embed/7adb81a5-81b0-427c-8f1e-28d70ec41274/Mpit9jWWx9.json" className='absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-5'></iframe>
                 <div class="mx-auto max-w-[1500px] text-center px-6 lg:px-8">
                     <div class="mx-auto max-w-screen lg:mx-0">
                         <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
