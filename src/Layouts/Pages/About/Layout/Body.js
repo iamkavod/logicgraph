@@ -4,6 +4,7 @@ import { GiDeliveryDrone } from "react-icons/gi";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { RiPassPendingFill, RiCustomerService2Fill } from "react-icons/ri";
 import { GrUserExpert } from "react-icons/gr";
+import { Coding } from '../../../../Assets';
 
 export default function Body() {
     return (
@@ -15,7 +16,7 @@ export default function Body() {
                         <div className='flex justfy-center items-center'>
                             <div class="pr-12">
                                 <p class="peer mb-6 text-black">
-                                    Unified Data Nigeria Ltd is a growing digital powerhouse in Nigeria, delivering digital transformations products and services that have impacted lives across the nation.
+                                    LogicGraph is a growing digital powerhouse in Nigeria, delivering digital transformations products and services that have impacted lives across the nation.
                                 </p>
                                 <p class="mb-6 text-black">
                                     We build innovative software solutions that empower people and business across private sectors and the government.
@@ -36,7 +37,7 @@ export default function Body() {
                                 </svg>
                             </a>
                             <div class="rounded-xl overflow-hidden">
-                                <img src="https://picsum.photos/800/800" alt="" className='h-[400px]' />
+                                <img src={Coding} alt="" className='h-[400px]' />
                             </div>
                         </div>
                     </div>
