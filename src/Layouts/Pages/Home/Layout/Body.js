@@ -144,7 +144,7 @@ export default function Body() {
                                     <div className="py-2 px-9 relative">
                                         <img src={FgnTreasury} alt='FgnTreasury' />
                                         <h3 className="mt-8 text-lg font-semibold text-black group-hover:text-white ">FGN Treasure Books</h3>
-                                        <p className="mt-4 text-base text-gray-600 group-hover:text-white"></p>
+                                        <p className="mt-4 text-base text-gray-600 group-hover:text-white  ">Contact Sales</p>
                                     </div>
                                 </a>
 
@@ -156,7 +156,7 @@ export default function Body() {
                                     <div className="py-2 px-9 relative  ">
                                         <img src={FormExtrator} alt='FormExtration' />
                                         <h3 className="mt-8 text-lg font-semibold text-black group-hover:text-white ">Form Extrator</h3>
-                                        <p className="mt-4 text-base text-gray-600 group-hover:text-white">Sign Up For Free</p>
+                                        <p className="mt-4 text-base text-gray-600 group-hover:text-white  ">Contact Sales</p>
                                     </div>
                                 </a>
                             </div>
